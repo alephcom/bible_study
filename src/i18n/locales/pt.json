@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Ferramenta de Estudo Bíblico",
+    "footer": {
+      "poweredBy": "Alimentado por BibleSuperSearch API",
+      "githubRepo": "Repositório GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "Buscar Referência",
+    "search": "Busca por Palavra-chave",
+    "browse": "Navegar"
+  },
+  "searchForm": {
+    "bibleReference": "Referência Bíblica:",
+    "bibleReferencePlaceholder": "ex: João 3:16, 1 João 1:1-3, Gênesis 1:1",
+    "bibleReferenceHint": "Digite uma referência bíblica como \"João 3:16\" ou \"1 João 1:1-3\"",
+    "searchTerms": "Termos de Busca:",
+    "searchTermsPlaceholder": "Digite palavras-chave para buscar",
+    "searchTermsHint": "Digite palavras ou frases para buscar na Bíblia",
+    "selectBibles": "Selecionar Versão da Bíblia:",
+    "selectBiblesMultiple": "Selecionar Versões da Bíblia:",
+    "includeContext": "Incluir contexto (versículos circundantes)",
+    "contextRange": "Intervalo de contexto:",
+    "verses": "versículos",
+    "lookupPassage": "Buscar Passagem",
+    "search": "Buscar",
+    "searching": "Buscando...",
+    "alertSelectBible": "Por favor, selecione pelo menos uma versão da Bíblia",
+    "alertEnterReference": "Por favor, digite uma referência bíblica",
+    "alertEnterSearch": "Por favor, digite termos de busca"
+  },
+  "bibleSelector": {
+    "loading": "Carregando versões da Bíblia...",
+    "error": "Erro:",
+    "retry": "Tentar novamente",
+    "placeholder": "Selecionar versão da Bíblia",
+    "placeholderMultiple": "Selecionar versões da Bíblia"
+  },
+  "passageDisplay": {
+    "empty": "Nenhuma passagem para exibir",
+    "noVerses": "Nenhum versículo encontrado para esta versão da Bíblia"
+  },
+  "searchResults": {
+    "title": "Resultados da Busca",
+    "noResults": "Nenhum resultado encontrado. Tente termos de busca diferentes.",
+    "found": "Encontrado",
+    "result": "resultado",
+    "results": "resultados",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "page": "Página",
+    "of": "de"
+  },
+  "browse": {
+    "book": "Livro:",
+    "selectBook": "Selecionar um livro...",
+    "oldTestament": "Antigo Testamento",
+    "newTestament": "Novo Testamento",
+    "chapter": "Capítulo:",
+    "previousBook": "Livro Anterior",
+    "nextBook": "Próximo Livro",
+    "previousChapter": "Capítulo Anterior",
+    "nextChapter": "Próximo Capítulo",
+    "selectBible": "Por favor, selecione pelo menos uma versão da Bíblia para ver o capítulo.",
+    "loadingBooks": "Carregando livros da Bíblia...",
+    "loadingChapter": "Carregando capítulo..."
+  },
+  "errors": {
+    "error": "Erro",
+    "loadingFailed": "Falha ao carregar",
+    "searchFailed": "Falha na busca",
+    "lookupFailed": "Falha ao buscar passagem",
+    "anErrorOccurred": "Ocorreu um erro"
+  },
+  "loading": {
+    "loading": "Carregando..."
+  },
+  "cookieConsent": {
+    "title": "Consentimento de Cookies",
+    "message": "Usamos cookies para lembrar suas versões da Bíblia selecionadas para uma melhor experiência. Nenhuma informação pessoal é coletada ou compartilhada.",
+    "accept": "Aceitar",
+    "decline": "Recusar"
+  }
+}

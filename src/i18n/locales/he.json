@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "כלי לימוד תנ\"ך",
+    "footer": {
+      "poweredBy": "מופעל על ידי BibleSuperSearch API",
+      "githubRepo": "מאגר GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "חיפוש הפניה",
+    "search": "חיפוש מילות מפתח",
+    "browse": "עיון"
+  },
+  "searchForm": {
+    "bibleReference": "הפניה מקראית:",
+    "bibleReferencePlaceholder": "לדוגמה: יוחנן 3:16, 1 יוחנן 1:1-3, בראשית 1:1",
+    "bibleReferenceHint": "הכנס הפניה מקראית כמו \"יוחנן 3:16\" או \"1 יוחנן 1:1-3\"",
+    "searchTerms": "מונחי חיפוש:",
+    "searchTermsPlaceholder": "הכנס מילות מפתח לחיפוש",
+    "searchTermsHint": "הכנס מילים או ביטויים לחיפוש בתנ\"ך",
+    "selectBibles": "בחר גרסת תנ\"ך:",
+    "selectBiblesMultiple": "בחר גרסאות תנ\"ך:",
+    "includeContext": "כלול הקשר (פסוקים סביב)",
+    "contextRange": "טווח הקשר:",
+    "verses": "פסוקים",
+    "lookupPassage": "חפש קטע",
+    "search": "חיפוש",
+    "searching": "מחפש...",
+    "alertSelectBible": "אנא בחר לפחות גרסת תנ\"ך אחת",
+    "alertEnterReference": "אנא הכנס הפניה מקראית",
+    "alertEnterSearch": "אנא הכנס מונחי חיפוש"
+  },
+  "bibleSelector": {
+    "loading": "טוען גרסאות תנ\"ך...",
+    "error": "שגיאה:",
+    "retry": "נסה שוב",
+    "placeholder": "בחר גרסת תנ\"ך",
+    "placeholderMultiple": "בחר גרסאות תנ\"ך"
+  },
+  "passageDisplay": {
+    "empty": "אין קטעים להצגה",
+    "noVerses": "לא נמצאו פסוקים עבור גרסת תנ\"ך זו"
+  },
+  "searchResults": {
+    "title": "תוצאות חיפוש",
+    "noResults": "לא נמצאו תוצאות. נסה מונחי חיפוש שונים.",
+    "found": "נמצא",
+    "result": "תוצאה",
+    "results": "תוצאות",
+    "previous": "הקודם",
+    "next": "הבא",
+    "page": "עמוד",
+    "of": "מתוך"
+  },
+  "browse": {
+    "book": "ספר:",
+    "selectBook": "בחר ספר...",
+    "oldTestament": "הברית הישנה",
+    "newTestament": "הברית החדשה",
+    "chapter": "פרק:",
+    "previousBook": "הספר הקודם",
+    "nextBook": "הספר הבא",
+    "previousChapter": "הפרק הקודם",
+    "nextChapter": "הפרק הבא",
+    "selectBible": "אנא בחר לפחות גרסת תנ\"ך אחת כדי לראות את הפרק.",
+    "loadingBooks": "טוען ספרי תנ\"ך...",
+    "loadingChapter": "טוען פרק..."
+  },
+  "errors": {
+    "error": "שגיאה",
+    "loadingFailed": "טעינה נכשלה",
+    "searchFailed": "חיפוש נכשל",
+    "lookupFailed": "חיפוש קטע נכשל",
+    "anErrorOccurred": "אירעה שגיאה"
+  },
+  "loading": {
+    "loading": "טוען..."
+  },
+  "cookieConsent": {
+    "title": "הסכמה לעוגיות",
+    "message": "אנו משתמשים בעוגיות כדי לזכור את גרסאות התנ\"ך שבחרת לחווייה טובה יותר. לא נאספת או משותפת שום מידע אישי.",
+    "accept": "מסכים",
+    "decline": "דוחה"
+  }
+}

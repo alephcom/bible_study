@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Bibelstudieverktyg",
+    "footer": {
+      "poweredBy": "Drivs av BibleSuperSearch API",
+      "githubRepo": "GitHub-förvar"
+    }
+  },
+  "tabs": {
+    "lookup": "Sök Referens",
+    "search": "Nyckelordssökning",
+    "browse": "Bläddra"
+  },
+  "searchForm": {
+    "bibleReference": "Bibelreferens:",
+    "bibleReferencePlaceholder": "t.ex. Johannes 3:16, 1 Johannes 1:1-3, Första Moseboken 1:1",
+    "bibleReferenceHint": "Ange en bibelreferens som \"Johannes 3:16\" eller \"1 Johannes 1:1-3\"",
+    "searchTerms": "Sökord:",
+    "searchTermsPlaceholder": "Ange nyckelord att söka efter",
+    "searchTermsHint": "Ange ord eller fraser att söka efter i Bibeln",
+    "selectBibles": "Välj Bibelversion:",
+    "selectBiblesMultiple": "Välj Bibelversioner:",
+    "includeContext": "Inkludera sammanhang (omgivande verser)",
+    "contextRange": "Sammanhangsområde:",
+    "verses": "verser",
+    "lookupPassage": "Sök Text",
+    "search": "Sök",
+    "searching": "Söker...",
+    "alertSelectBible": "Vänligen välj minst en bibelversion",
+    "alertEnterReference": "Vänligen ange en bibelreferens",
+    "alertEnterSearch": "Vänligen ange sökord"
+  },
+  "bibleSelector": {
+    "loading": "Laddar bibelversioner...",
+    "error": "Fel:",
+    "retry": "Försök igen",
+    "placeholder": "Välj bibelversion",
+    "placeholderMultiple": "Välj bibelversioner"
+  },
+  "passageDisplay": {
+    "empty": "Inga texter att visa",
+    "noVerses": "Inga verser hittades för denna bibelversion"
+  },
+  "searchResults": {
+    "title": "Sökresultat",
+    "noResults": "Inga resultat hittades. Prova med andra sökord.",
+    "found": "Hittade",
+    "result": "resultat",
+    "results": "resultat",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "page": "Sida",
+    "of": "av"
+  },
+  "browse": {
+    "book": "Bok:",
+    "selectBook": "Välj en bok...",
+    "oldTestament": "Gamla Testamentet",
+    "newTestament": "Nya Testamentet",
+    "chapter": "Kapitel:",
+    "previousBook": "Föregående Bok",
+    "nextBook": "Nästa Bok",
+    "previousChapter": "Föregående Kapitel",
+    "nextChapter": "Nästa Kapitel",
+    "selectBible": "Vänligen välj minst en bibelversion för att visa kapitlet.",
+    "loadingBooks": "Laddar bibelböcker...",
+    "loadingChapter": "Laddar kapitel..."
+  },
+  "errors": {
+    "error": "Fel",
+    "loadingFailed": "Misslyckades med att ladda",
+    "searchFailed": "Sökningen misslyckades",
+    "lookupFailed": "Sökning av text misslyckades",
+    "anErrorOccurred": "Ett fel uppstod"
+  },
+  "loading": {
+    "loading": "Laddar..."
+  },
+  "cookieConsent": {
+    "title": "Cookie-samtycke",
+    "message": "Vi använder cookies för att komma ihåg dina valda bibelversioner för en bättre upplevelse. Ingen personlig information samlas in eller delas.",
+    "accept": "Godkänn",
+    "decline": "Avvisa"
+  }
+}

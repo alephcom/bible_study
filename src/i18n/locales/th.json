@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "เครื่องมือศึกษาพระคัมภีร์",
+    "footer": {
+      "poweredBy": "ขับเคลื่อนโดย BibleSuperSearch API",
+      "githubRepo": "คลัง GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "ค้นหาอ้างอิง",
+    "search": "ค้นหาคำสำคัญ",
+    "browse": "เรียกดู"
+  },
+  "searchForm": {
+    "bibleReference": "อ้างอิงพระคัมภีร์:",
+    "bibleReferencePlaceholder": "เช่น ยอห์น 3:16, 1 ยอห์น 1:1-3, ปฐมกาล 1:1",
+    "bibleReferenceHint": "ใส่การอ้างอิงพระคัมภีร์เช่น \"ยอห์น 3:16\" หรือ \"1 ยอห์น 1:1-3\"",
+    "searchTerms": "คำค้นหา:",
+    "searchTermsPlaceholder": "ใส่คำสำคัญเพื่อค้นหา",
+    "searchTermsHint": "ใส่คำหรือวลีเพื่อค้นหาในพระคัมภีร์",
+    "selectBibles": "เลือกเวอร์ชันพระคัมภีร์:",
+    "selectBiblesMultiple": "เลือกเวอร์ชันพระคัมภีร์:",
+    "includeContext": "รวมบริบท (ข้อที่อยู่รอบๆ)",
+    "contextRange": "ช่วงบริบท:",
+    "verses": "ข้อ",
+    "lookupPassage": "ค้นหาบท",
+    "search": "ค้นหา",
+    "searching": "กำลังค้นหา...",
+    "alertSelectBible": "กรุณาเลือกเวอร์ชันพระคัมภีร์อย่างน้อยหนึ่งเวอร์ชัน",
+    "alertEnterReference": "กรุณาใส่การอ้างอิงพระคัมภีร์",
+    "alertEnterSearch": "กรุณาใส่คำค้นหา"
+  },
+  "bibleSelector": {
+    "loading": "กำลังโหลดเวอร์ชันพระคัมภีร์...",
+    "error": "ข้อผิดพลาด:",
+    "retry": "ลองอีกครั้ง",
+    "placeholder": "เลือกเวอร์ชันพระคัมภีร์",
+    "placeholderMultiple": "เลือกเวอร์ชันพระคัมภีร์"
+  },
+  "passageDisplay": {
+    "empty": "ไม่มีบทให้แสดง",
+    "noVerses": "ไม่พบข้อสำหรับเวอร์ชันพระคัมภีร์นี้"
+  },
+  "searchResults": {
+    "title": "ผลการค้นหา",
+    "noResults": "ไม่พบผลลัพธ์ ลองใช้คำค้นหาที่แตกต่างกัน",
+    "found": "พบ",
+    "result": "ผลลัพธ์",
+    "results": "ผลลัพธ์",
+    "previous": "ก่อนหน้า",
+    "next": "ถัดไป",
+    "page": "หน้า",
+    "of": "จาก"
+  },
+  "browse": {
+    "book": "หนังสือ:",
+    "selectBook": "เลือกหนังสือ...",
+    "oldTestament": "พันธสัญญาเดิม",
+    "newTestament": "พันธสัญญาใหม่",
+    "chapter": "บท:",
+    "previousBook": "หนังสือก่อนหน้า",
+    "nextBook": "หนังสือถัดไป",
+    "previousChapter": "บทก่อนหน้า",
+    "nextChapter": "บทถัดไป",
+    "selectBible": "กรุณาเลือกเวอร์ชันพระคัมภีร์อย่างน้อยหนึ่งเวอร์ชันเพื่อดูบท",
+    "loadingBooks": "กำลังโหลดหนังสือพระคัมภีร์...",
+    "loadingChapter": "กำลังโหลดบท..."
+  },
+  "errors": {
+    "error": "ข้อผิดพลาด",
+    "loadingFailed": "โหลดล้มเหลว",
+    "searchFailed": "ค้นหาล้มเหลว",
+    "lookupFailed": "ค้นหาบทล้มเหลว",
+    "anErrorOccurred": "เกิดข้อผิดพลาด"
+  },
+  "loading": {
+    "loading": "กำลังโหลด..."
+  },
+  "cookieConsent": {
+    "title": "ยินยอมใช้คุกกี้",
+    "message": "เราใช้คุกกี้เพื่อจำเวอร์ชันพระคัมภีร์ที่คุณเลือกเพื่อประสบการณ์ที่ดีขึ้น ไม่มีการเก็บรวบรวมหรือแบ่งปันข้อมูลส่วนบุคคล",
+    "accept": "ยอมรับ",
+    "decline": "ปฏิเสธ"
+  }
+}

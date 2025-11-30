@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Công Cụ Nghiên Cứu Kinh Thánh",
+    "footer": {
+      "poweredBy": "Được hỗ trợ bởi BibleSuperSearch API",
+      "githubRepo": "Kho lưu trữ GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "Tra Cứu Tham Chiếu",
+    "search": "Tìm Kiếm Từ Khóa",
+    "browse": "Duyệt"
+  },
+  "searchForm": {
+    "bibleReference": "Tham Chiếu Kinh Thánh:",
+    "bibleReferencePlaceholder": "vd. Giăng 3:16, 1 Giăng 1:1-3, Sáng Thế Ký 1:1",
+    "bibleReferenceHint": "Nhập tham chiếu Kinh Thánh như \"Giăng 3:16\" hoặc \"1 Giăng 1:1-3\"",
+    "searchTerms": "Từ Khóa Tìm Kiếm:",
+    "searchTermsPlaceholder": "Nhập từ khóa để tìm kiếm",
+    "searchTermsHint": "Nhập từ hoặc cụm từ để tìm kiếm trong Kinh Thánh",
+    "selectBibles": "Chọn Phiên Bản Kinh Thánh:",
+    "selectBiblesMultiple": "Chọn Phiên Bản Kinh Thánh:",
+    "includeContext": "Bao gồm ngữ cảnh (các câu xung quanh)",
+    "contextRange": "Phạm vi ngữ cảnh:",
+    "verses": "câu",
+    "lookupPassage": "Tra Cứu Đoạn",
+    "search": "Tìm Kiếm",
+    "searching": "Đang tìm kiếm...",
+    "alertSelectBible": "Vui lòng chọn ít nhất một phiên bản Kinh Thánh",
+    "alertEnterReference": "Vui lòng nhập tham chiếu Kinh Thánh",
+    "alertEnterSearch": "Vui lòng nhập từ khóa tìm kiếm"
+  },
+  "bibleSelector": {
+    "loading": "Đang tải các phiên bản Kinh Thánh...",
+    "error": "Lỗi:",
+    "retry": "Thử Lại",
+    "placeholder": "Chọn phiên bản Kinh Thánh",
+    "placeholderMultiple": "Chọn phiên bản Kinh Thánh"
+  },
+  "passageDisplay": {
+    "empty": "Không có đoạn để hiển thị",
+    "noVerses": "Không tìm thấy câu nào cho phiên bản Kinh Thánh này"
+  },
+  "searchResults": {
+    "title": "Kết Quả Tìm Kiếm",
+    "noResults": "Không tìm thấy kết quả. Thử các từ khóa tìm kiếm khác.",
+    "found": "Tìm thấy",
+    "result": "kết quả",
+    "results": "kết quả",
+    "previous": "Trước",
+    "next": "Tiếp",
+    "page": "Trang",
+    "of": "của"
+  },
+  "browse": {
+    "book": "Sách:",
+    "selectBook": "Chọn một sách...",
+    "oldTestament": "Cựu Ước",
+    "newTestament": "Tân Ước",
+    "chapter": "Chương:",
+    "previousBook": "Sách Trước",
+    "nextBook": "Sách Tiếp",
+    "previousChapter": "Chương Trước",
+    "nextChapter": "Chương Tiếp",
+    "selectBible": "Vui lòng chọn ít nhất một phiên bản Kinh Thánh để xem chương.",
+    "loadingBooks": "Đang tải các sách Kinh Thánh...",
+    "loadingChapter": "Đang tải chương..."
+  },
+  "errors": {
+    "error": "Lỗi",
+    "loadingFailed": "Tải thất bại",
+    "searchFailed": "Tìm kiếm thất bại",
+    "lookupFailed": "Tra cứu đoạn thất bại",
+    "anErrorOccurred": "Đã xảy ra lỗi"
+  },
+  "loading": {
+    "loading": "Đang tải..."
+  },
+  "cookieConsent": {
+    "title": "Đồng Ý Cookie",
+    "message": "Chúng tôi sử dụng cookie để ghi nhớ các phiên bản Kinh Thánh bạn đã chọn để có trải nghiệm tốt hơn. Không có thông tin cá nhân nào được thu thập hoặc chia sẻ.",
+    "accept": "Chấp Nhận",
+    "decline": "Từ Chối"
+  }
+}

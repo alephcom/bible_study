@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "बाइबल अध्ययन उपकरण",
+    "footer": {
+      "poweredBy": "BibleSuperSearch API द्वारा संचालित",
+      "githubRepo": "GitHub रिपॉजिटरी"
+    }
+  },
+  "tabs": {
+    "lookup": "संदर्भ खोजें",
+    "search": "कीवर्ड खोज",
+    "browse": "ब्राउज़ करें"
+  },
+  "searchForm": {
+    "bibleReference": "बाइबल संदर्भ:",
+    "bibleReferencePlaceholder": "उदा. यूहन्ना 3:16, 1 यूहन्ना 1:1-3, उत्पत्ति 1:1",
+    "bibleReferenceHint": "बाइबल संदर्भ दर्ज करें जैसे \"यूहन्ना 3:16\" या \"1 यूहन्ना 1:1-3\"",
+    "searchTerms": "खोज शब्द:",
+    "searchTermsPlaceholder": "खोजने के लिए कीवर्ड दर्ज करें",
+    "searchTermsHint": "बाइबल में खोजने के लिए शब्द या वाक्यांश दर्ज करें",
+    "selectBibles": "बाइबल संस्करण चुनें:",
+    "selectBiblesMultiple": "बाइबल संस्करण चुनें:",
+    "includeContext": "संदर्भ शामिल करें (आसपास की आयतें)",
+    "contextRange": "संदर्भ सीमा:",
+    "verses": "आयतें",
+    "lookupPassage": "अंश खोजें",
+    "search": "खोजें",
+    "searching": "खोज रहे हैं...",
+    "alertSelectBible": "कृपया कम से कम एक बाइबल संस्करण चुनें",
+    "alertEnterReference": "कृपया एक बाइबल संदर्भ दर्ज करें",
+    "alertEnterSearch": "कृपया खोज शब्द दर्ज करें"
+  },
+  "bibleSelector": {
+    "loading": "बाइबल संस्करण लोड हो रहे हैं...",
+    "error": "त्रुटि:",
+    "retry": "पुनः प्रयास करें",
+    "placeholder": "बाइबल संस्करण चुनें",
+    "placeholderMultiple": "बाइबल संस्करण चुनें"
+  },
+  "passageDisplay": {
+    "empty": "दिखाने के लिए कोई अंश नहीं",
+    "noVerses": "इस बाइबल संस्करण के लिए कोई आयत नहीं मिली"
+  },
+  "searchResults": {
+    "title": "खोज परिणाम",
+    "noResults": "कोई परिणाम नहीं मिला। अलग खोज शब्द आज़माएं।",
+    "found": "मिले",
+    "result": "परिणाम",
+    "results": "परिणाम",
+    "previous": "पिछला",
+    "next": "अगला",
+    "page": "पृष्ठ",
+    "of": "का"
+  },
+  "browse": {
+    "book": "पुस्तक:",
+    "selectBook": "एक पुस्तक चुनें...",
+    "oldTestament": "पुराना नियम",
+    "newTestament": "नया नियम",
+    "chapter": "अध्याय:",
+    "previousBook": "पिछली पुस्तक",
+    "nextBook": "अगली पुस्तक",
+    "previousChapter": "पिछला अध्याय",
+    "nextChapter": "अगला अध्याय",
+    "selectBible": "कृपया अध्याय देखने के लिए कम से कम एक बाइबल संस्करण चुनें।",
+    "loadingBooks": "बाइबल पुस्तकें लोड हो रही हैं...",
+    "loadingChapter": "अध्याय लोड हो रहा है..."
+  },
+  "errors": {
+    "error": "त्रुटि",
+    "loadingFailed": "लोड करने में विफल",
+    "searchFailed": "खोज विफल",
+    "lookupFailed": "अंश खोजने में विफल",
+    "anErrorOccurred": "एक त्रुटि हुई"
+  },
+  "loading": {
+    "loading": "लोड हो रहा है..."
+  },
+  "cookieConsent": {
+    "title": "कुकी सहमति",
+    "message": "हम बेहतर अनुभव के लिए आपके चुने गए बाइबल संस्करणों को याद रखने के लिए कुकीज़ का उपयोग करते हैं। कोई व्यक्तिगत जानकारी एकत्र या साझा नहीं की जाती।",
+    "accept": "स्वीकार करें",
+    "decline": "अस्वीकार करें"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "أداة دراسة الكتاب المقدس",
+    "footer": {
+      "poweredBy": "مدعوم بواسطة BibleSuperSearch API",
+      "githubRepo": "مستودع GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "البحث عن مرجع",
+    "search": "البحث عن كلمة مفتاحية",
+    "browse": "تصفح"
+  },
+  "searchForm": {
+    "bibleReference": "مرجع الكتاب المقدس:",
+    "bibleReferencePlaceholder": "مثال: يوحنا 3:16، 1 يوحنا 1:1-3، التكوين 1:1",
+    "bibleReferenceHint": "أدخل مرجعًا من الكتاب المقدس مثل \"يوحنا 3:16\" أو \"1 يوحنا 1:1-3\"",
+    "searchTerms": "كلمات البحث:",
+    "searchTermsPlaceholder": "أدخل الكلمات المفتاحية للبحث",
+    "searchTermsHint": "أدخل كلمات أو عبارات للبحث عنها في الكتاب المقدس",
+    "selectBibles": "اختر نسخة الكتاب المقدس:",
+    "selectBiblesMultiple": "اختر نسخ الكتاب المقدس:",
+    "includeContext": "تضمين السياق (الآيات المحيطة)",
+    "contextRange": "نطاق السياق:",
+    "verses": "آيات",
+    "lookupPassage": "البحث عن مقطع",
+    "search": "بحث",
+    "searching": "جارٍ البحث...",
+    "alertSelectBible": "الرجاء اختيار نسخة واحدة على الأقل من الكتاب المقدس",
+    "alertEnterReference": "الرجاء إدخال مرجع من الكتاب المقدس",
+    "alertEnterSearch": "الرجاء إدخال كلمات البحث"
+  },
+  "bibleSelector": {
+    "loading": "جارٍ تحميل نسخ الكتاب المقدس...",
+    "error": "خطأ:",
+    "retry": "إعادة المحاولة",
+    "placeholder": "اختر نسخة الكتاب المقدس",
+    "placeholderMultiple": "اختر نسخ الكتاب المقدس"
+  },
+  "passageDisplay": {
+    "empty": "لا توجد مقاطع للعرض",
+    "noVerses": "لم يتم العثور على آيات لهذه النسخة من الكتاب المقدس"
+  },
+  "searchResults": {
+    "title": "نتائج البحث",
+    "noResults": "لم يتم العثور على نتائج. جرب كلمات بحث مختلفة.",
+    "found": "تم العثور على",
+    "result": "نتيجة",
+    "results": "نتائج",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "browse": {
+    "book": "الكتاب:",
+    "selectBook": "اختر كتابًا...",
+    "oldTestament": "العهد القديم",
+    "newTestament": "العهد الجديد",
+    "chapter": "الإصحاح:",
+    "previousBook": "الكتاب السابق",
+    "nextBook": "الكتاب التالي",
+    "previousChapter": "الإصحاح السابق",
+    "nextChapter": "الإصحاح التالي",
+    "selectBible": "الرجاء اختيار نسخة واحدة على الأقل من الكتاب المقدس لعرض الإصحاح.",
+    "loadingBooks": "جارٍ تحميل كتب الكتاب المقدس...",
+    "loadingChapter": "جارٍ تحميل الإصحاح..."
+  },
+  "errors": {
+    "error": "خطأ",
+    "loadingFailed": "فشل التحميل",
+    "searchFailed": "فشل البحث",
+    "lookupFailed": "فشل البحث عن المقطع",
+    "anErrorOccurred": "حدث خطأ"
+  },
+  "loading": {
+    "loading": "جارٍ التحميل..."
+  },
+  "cookieConsent": {
+    "title": "موافقة ملفات تعريف الارتباط",
+    "message": "نستخدم ملفات تعريف الارتباط لتذكر نسخ الكتاب المقدس التي اخترتها للحصول على تجربة أفضل. لا يتم جمع أو مشاركة أي معلومات شخصية.",
+    "accept": "قبول",
+    "decline": "رفض"
+  }
+}

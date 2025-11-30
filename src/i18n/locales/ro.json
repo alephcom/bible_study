@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Instrument de Studiu Biblic",
+    "footer": {
+      "poweredBy": "Alimentat de BibleSuperSearch API",
+      "githubRepo": "Repository GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "Căutare Referință",
+    "search": "Căutare după Cuvinte Cheie",
+    "browse": "Răsfoire"
+  },
+  "searchForm": {
+    "bibleReference": "Referință Biblică:",
+    "bibleReferencePlaceholder": "ex. Ioan 3:16, 1 Ioan 1:1-3, Geneza 1:1",
+    "bibleReferenceHint": "Introduceți o referință biblică precum \"Ioan 3:16\" sau \"1 Ioan 1:1-3\"",
+    "searchTerms": "Termeni de Căutare:",
+    "searchTermsPlaceholder": "Introduceți cuvinte cheie pentru căutare",
+    "searchTermsHint": "Introduceți cuvinte sau expresii pentru căutare în Biblie",
+    "selectBibles": "Selectați Versiunea Bibliei:",
+    "selectBiblesMultiple": "Selectați Versiunile Bibliei:",
+    "includeContext": "Includeți context (versetele înconjurătoare)",
+    "contextRange": "Intervalul de context:",
+    "verses": "versete",
+    "lookupPassage": "Căutați Pasajul",
+    "search": "Căutare",
+    "searching": "Căutare...",
+    "alertSelectBible": "Vă rugăm să selectați cel puțin o versiune a Bibliei",
+    "alertEnterReference": "Vă rugăm să introduceți o referință biblică",
+    "alertEnterSearch": "Vă rugăm să introduceți termenii de căutare"
+  },
+  "bibleSelector": {
+    "loading": "Se încarcă versiunile Bibliei...",
+    "error": "Eroare:",
+    "retry": "Încearcă din nou",
+    "placeholder": "Selectați versiunea Bibliei",
+    "placeholderMultiple": "Selectați versiunile Bibliei"
+  },
+  "passageDisplay": {
+    "empty": "Nu există pasaje de afișat",
+    "noVerses": "Nu au fost găsite versete pentru această versiune a Bibliei"
+  },
+  "searchResults": {
+    "title": "Rezultatele Căutării",
+    "noResults": "Nu au fost găsite rezultate. Încercați cu alți termeni de căutare.",
+    "found": "Găsit",
+    "result": "rezultat",
+    "results": "rezultate",
+    "previous": "Anterior",
+    "next": "Următor",
+    "page": "Pagina",
+    "of": "din"
+  },
+  "browse": {
+    "book": "Carte:",
+    "selectBook": "Selectați o carte...",
+    "oldTestament": "Vechiul Testament",
+    "newTestament": "Noul Testament",
+    "chapter": "Capitol:",
+    "previousBook": "Cartea Anterioară",
+    "nextBook": "Cartea Următoare",
+    "previousChapter": "Capitolul Anterior",
+    "nextChapter": "Capitolul Următor",
+    "selectBible": "Vă rugăm să selectați cel puțin o versiune a Bibliei pentru a vedea capitolul.",
+    "loadingBooks": "Se încarcă cărțile Bibliei...",
+    "loadingChapter": "Se încarcă capitolul..."
+  },
+  "errors": {
+    "error": "Eroare",
+    "loadingFailed": "Încărcarea a eșuat",
+    "searchFailed": "Căutarea a eșuat",
+    "lookupFailed": "Căutarea pasajului a eșuat",
+    "anErrorOccurred": "A apărut o eroare"
+  },
+  "loading": {
+    "loading": "Se încarcă..."
+  },
+  "cookieConsent": {
+    "title": "Consimțământ pentru Cookie-uri",
+    "message": "Folosim cookie-uri pentru a ne aminti versiunile Bibliei selectate pentru o experiență mai bună. Nicio informație personală nu este colectată sau partajată.",
+    "accept": "Accept",
+    "decline": "Refuz"
+  }
+}

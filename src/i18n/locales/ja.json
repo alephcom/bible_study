@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "聖書研究ツール",
+    "footer": {
+      "poweredBy": "BibleSuperSearch API 提供",
+      "githubRepo": "GitHub リポジトリ"
+    }
+  },
+  "tabs": {
+    "lookup": "参照を検索",
+    "search": "キーワード検索",
+    "browse": "閲覧"
+  },
+  "searchForm": {
+    "bibleReference": "聖書の参照：",
+    "bibleReferencePlaceholder": "例：ヨハネ 3:16、1 ヨハネ 1:1-3、創世記 1:1",
+    "bibleReferenceHint": "「ヨハネ 3:16」や「1 ヨハネ 1:1-3」のような聖書の参照を入力してください",
+    "searchTerms": "検索語：",
+    "searchTermsPlaceholder": "検索するキーワードを入力",
+    "searchTermsHint": "聖書内で検索する単語やフレーズを入力してください",
+    "selectBibles": "聖書のバージョンを選択：",
+    "selectBiblesMultiple": "聖書のバージョンを選択：",
+    "includeContext": "コンテキストを含める（周辺の節）",
+    "contextRange": "コンテキスト範囲：",
+    "verses": "節",
+    "lookupPassage": "箇所を検索",
+    "search": "検索",
+    "searching": "検索中...",
+    "alertSelectBible": "少なくとも1つの聖書バージョンを選択してください",
+    "alertEnterReference": "聖書の参照を入力してください",
+    "alertEnterSearch": "検索語を入力してください"
+  },
+  "bibleSelector": {
+    "loading": "聖書のバージョンを読み込み中...",
+    "error": "エラー：",
+    "retry": "再試行",
+    "placeholder": "聖書のバージョンを選択",
+    "placeholderMultiple": "聖書のバージョンを選択"
+  },
+  "passageDisplay": {
+    "empty": "表示する箇所がありません",
+    "noVerses": "この聖書バージョンの節が見つかりません"
+  },
+  "searchResults": {
+    "title": "検索結果",
+    "noResults": "結果が見つかりませんでした。別の検索語をお試しください。",
+    "found": "見つかりました",
+    "result": "件の結果",
+    "results": "件の結果",
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ",
+    "of": "/"
+  },
+  "browse": {
+    "book": "書：",
+    "selectBook": "書を選択...",
+    "oldTestament": "旧約聖書",
+    "newTestament": "新約聖書",
+    "chapter": "章：",
+    "previousBook": "前の書",
+    "nextBook": "次の書",
+    "previousChapter": "前の章",
+    "nextChapter": "次の章",
+    "selectBible": "章を表示するには、少なくとも1つの聖書バージョンを選択してください。",
+    "loadingBooks": "聖書の書を読み込み中...",
+    "loadingChapter": "章を読み込み中..."
+  },
+  "errors": {
+    "error": "エラー",
+    "loadingFailed": "読み込みに失敗しました",
+    "searchFailed": "検索に失敗しました",
+    "lookupFailed": "箇所の検索に失敗しました",
+    "anErrorOccurred": "エラーが発生しました"
+  },
+  "loading": {
+    "loading": "読み込み中..."
+  },
+  "cookieConsent": {
+    "title": "Cookie 同意",
+    "message": "より良い体験のために、選択した聖書のバージョンを記憶するためにCookieを使用しています。個人情報は収集または共有されません。",
+    "accept": "同意する",
+    "decline": "拒否する"
+  }
+}

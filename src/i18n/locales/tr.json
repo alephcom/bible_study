@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "İncil Çalışma Aracı",
+    "footer": {
+      "poweredBy": "BibleSuperSearch API ile desteklenmektedir",
+      "githubRepo": "GitHub Deposu"
+    }
+  },
+  "tabs": {
+    "lookup": "Referans Ara",
+    "search": "Anahtar Kelime Arama",
+    "browse": "Gözat"
+  },
+  "searchForm": {
+    "bibleReference": "İncil Referansı:",
+    "bibleReferencePlaceholder": "örn. Yuhanna 3:16, 1 Yuhanna 1:1-3, Yaratılış 1:1",
+    "bibleReferenceHint": "\"Yuhanna 3:16\" veya \"1 Yuhanna 1:1-3\" gibi bir İncil referansı girin",
+    "searchTerms": "Arama Terimleri:",
+    "searchTermsPlaceholder": "Aramak için anahtar kelimeler girin",
+    "searchTermsHint": "İncil'de aramak için kelime veya ifadeler girin",
+    "selectBibles": "İncil Sürümü Seç:",
+    "selectBiblesMultiple": "İncil Sürümleri Seç:",
+    "includeContext": "Bağlam dahil et (çevredeki ayetler)",
+    "contextRange": "Bağlam aralığı:",
+    "verses": "ayet",
+    "lookupPassage": "Pasaj Ara",
+    "search": "Ara",
+    "searching": "Aranıyor...",
+    "alertSelectBible": "Lütfen en az bir İncil sürümü seçin",
+    "alertEnterReference": "Lütfen bir İncil referansı girin",
+    "alertEnterSearch": "Lütfen arama terimleri girin"
+  },
+  "bibleSelector": {
+    "loading": "İncil sürümleri yükleniyor...",
+    "error": "Hata:",
+    "retry": "Yeniden Dene",
+    "placeholder": "İncil sürümü seç",
+    "placeholderMultiple": "İncil sürümleri seç"
+  },
+  "passageDisplay": {
+    "empty": "Gösterilecek pasaj yok",
+    "noVerses": "Bu İncil sürümü için ayet bulunamadı"
+  },
+  "searchResults": {
+    "title": "Arama Sonuçları",
+    "noResults": "Sonuç bulunamadı. Farklı arama terimleri deneyin.",
+    "found": "Bulundu",
+    "result": "sonuç",
+    "results": "sonuç",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "page": "Sayfa",
+    "of": "/"
+  },
+  "browse": {
+    "book": "Kitap:",
+    "selectBook": "Bir kitap seç...",
+    "oldTestament": "Eski Ahit",
+    "newTestament": "Yeni Ahit",
+    "chapter": "Bölüm:",
+    "previousBook": "Önceki Kitap",
+    "nextBook": "Sonraki Kitap",
+    "previousChapter": "Önceki Bölüm",
+    "nextChapter": "Sonraki Bölüm",
+    "selectBible": "Lütfen bölümü görüntülemek için en az bir İncil sürümü seçin.",
+    "loadingBooks": "İncil kitapları yükleniyor...",
+    "loadingChapter": "Bölüm yükleniyor..."
+  },
+  "errors": {
+    "error": "Hata",
+    "loadingFailed": "Yükleme başarısız",
+    "searchFailed": "Arama başarısız",
+    "lookupFailed": "Pasaj arama başarısız",
+    "anErrorOccurred": "Bir hata oluştu"
+  },
+  "loading": {
+    "loading": "Yükleniyor..."
+  },
+  "cookieConsent": {
+    "title": "Çerez Onayı",
+    "message": "Daha iyi bir deneyim için seçtiğiniz İncil sürümlerini hatırlamak üzere çerezler kullanıyoruz. Hiçbir kişisel bilgi toplanmaz veya paylaşılmaz.",
+    "accept": "Kabul Et",
+    "decline": "Reddet"
+  }
+}

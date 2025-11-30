@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Bibelstudieværktøj",
+    "footer": {
+      "poweredBy": "Drevet af BibleSuperSearch API",
+      "githubRepo": "GitHub Repository"
+    }
+  },
+  "tabs": {
+    "lookup": "Opslag Reference",
+    "search": "Nøgleordsøgning",
+    "browse": "Gennemse"
+  },
+  "searchForm": {
+    "bibleReference": "Bibelhenvisning:",
+    "bibleReferencePlaceholder": "f.eks. Johannes 3:16, 1 Johannes 1:1-3, Første Mosebog 1:1",
+    "bibleReferenceHint": "Indtast en bibelhenvisning som \"Johannes 3:16\" eller \"1 Johannes 1:1-3\"",
+    "searchTerms": "Søgeord:",
+    "searchTermsPlaceholder": "Indtast nøgleord at søge efter",
+    "searchTermsHint": "Indtast ord eller sætninger at søge efter i Bibelen",
+    "selectBibles": "Vælg Bibelversion:",
+    "selectBiblesMultiple": "Vælg Bibelversioner:",
+    "includeContext": "Inkluder kontekst (omgivende vers)",
+    "contextRange": "Kontekstområde:",
+    "verses": "vers",
+    "lookupPassage": "Opslag Passagen",
+    "search": "Søg",
+    "searching": "Søger...",
+    "alertSelectBible": "Vælg venligst mindst én bibelversion",
+    "alertEnterReference": "Indtast venligst en bibelhenvisning",
+    "alertEnterSearch": "Indtast venligst søgeord"
+  },
+  "bibleSelector": {
+    "loading": "Indlæser bibelversioner...",
+    "error": "Fejl:",
+    "retry": "Prøv igen",
+    "placeholder": "Vælg bibelversion",
+    "placeholderMultiple": "Vælg bibelversioner"
+  },
+  "passageDisplay": {
+    "empty": "Ingen passager at vise",
+    "noVerses": "Ingen vers fundet for denne bibelversion"
+  },
+  "searchResults": {
+    "title": "Søgeresultater",
+    "noResults": "Ingen resultater fundet. Prøv forskellige søgeord.",
+    "found": "Fundet",
+    "result": "resultat",
+    "results": "resultater",
+    "previous": "Forrige",
+    "next": "Næste",
+    "page": "Side",
+    "of": "af"
+  },
+  "browse": {
+    "book": "Bog:",
+    "selectBook": "Vælg en bog...",
+    "oldTestament": "Det Gamle Testamente",
+    "newTestament": "Det Nye Testamente",
+    "chapter": "Kapitel:",
+    "previousBook": "Forrige Bog",
+    "nextBook": "Næste Bog",
+    "previousChapter": "Forrige Kapitel",
+    "nextChapter": "Næste Kapitel",
+    "selectBible": "Vælg venligst mindst én bibelversion for at vise kapitlet.",
+    "loadingBooks": "Indlæser bibelske bøger...",
+    "loadingChapter": "Indlæser kapitel..."
+  },
+  "errors": {
+    "error": "Fejl",
+    "loadingFailed": "Indlæsning mislykkedes",
+    "searchFailed": "Søgning mislykkedes",
+    "lookupFailed": "Opslag af passage mislykkedes",
+    "anErrorOccurred": "Der opstod en fejl"
+  },
+  "loading": {
+    "loading": "Indlæser..."
+  },
+  "cookieConsent": {
+    "title": "Cookie-samtykke",
+    "message": "Vi bruger cookies til at huske dine valgte bibelversioner for en bedre oplevelse. Ingen personlige oplysninger indsamles eller deles.",
+    "accept": "Accepter",
+    "decline": "Afvis"
+  }
+}

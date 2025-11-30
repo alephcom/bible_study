@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Alat Studi Alkitab",
+    "footer": {
+      "poweredBy": "Didukung oleh BibleSuperSearch API",
+      "githubRepo": "Repositori GitHub"
+    }
+  },
+  "tabs": {
+    "lookup": "Cari Referensi",
+    "search": "Pencarian Kata Kunci",
+    "browse": "Jelajahi"
+  },
+  "searchForm": {
+    "bibleReference": "Referensi Alkitab:",
+    "bibleReferencePlaceholder": "mis. Yohanes 3:16, 1 Yohanes 1:1-3, Kejadian 1:1",
+    "bibleReferenceHint": "Masukkan referensi Alkitab seperti \"Yohanes 3:16\" atau \"1 Yohanes 1:1-3\"",
+    "searchTerms": "Istilah Pencarian:",
+    "searchTermsPlaceholder": "Masukkan kata kunci untuk dicari",
+    "searchTermsHint": "Masukkan kata atau frasa untuk dicari di Alkitab",
+    "selectBibles": "Pilih Versi Alkitab:",
+    "selectBiblesMultiple": "Pilih Versi Alkitab:",
+    "includeContext": "Sertakan konteks (ayat-ayat sekitarnya)",
+    "contextRange": "Rentang konteks:",
+    "verses": "ayat",
+    "lookupPassage": "Cari Ayat",
+    "search": "Cari",
+    "searching": "Mencari...",
+    "alertSelectBible": "Silakan pilih setidaknya satu versi Alkitab",
+    "alertEnterReference": "Silakan masukkan referensi Alkitab",
+    "alertEnterSearch": "Silakan masukkan istilah pencarian"
+  },
+  "bibleSelector": {
+    "loading": "Memuat versi Alkitab...",
+    "error": "Kesalahan:",
+    "retry": "Coba Lagi",
+    "placeholder": "Pilih versi Alkitab",
+    "placeholderMultiple": "Pilih versi Alkitab"
+  },
+  "passageDisplay": {
+    "empty": "Tidak ada ayat yang ditampilkan",
+    "noVerses": "Tidak ada ayat yang ditemukan untuk versi Alkitab ini"
+  },
+  "searchResults": {
+    "title": "Hasil Pencarian",
+    "noResults": "Tidak ada hasil yang ditemukan. Coba istilah pencarian yang berbeda.",
+    "found": "Ditemukan",
+    "result": "hasil",
+    "results": "hasil",
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya",
+    "page": "Halaman",
+    "of": "dari"
+  },
+  "browse": {
+    "book": "Kitab:",
+    "selectBook": "Pilih kitab...",
+    "oldTestament": "Perjanjian Lama",
+    "newTestament": "Perjanjian Baru",
+    "chapter": "Pasal:",
+    "previousBook": "Kitab Sebelumnya",
+    "nextBook": "Kitab Selanjutnya",
+    "previousChapter": "Pasal Sebelumnya",
+    "nextChapter": "Pasal Selanjutnya",
+    "selectBible": "Silakan pilih setidaknya satu versi Alkitab untuk melihat pasal.",
+    "loadingBooks": "Memuat kitab-kitab Alkitab...",
+    "loadingChapter": "Memuat pasal..."
+  },
+  "errors": {
+    "error": "Kesalahan",
+    "loadingFailed": "Gagal memuat",
+    "searchFailed": "Pencarian gagal",
+    "lookupFailed": "Pencarian ayat gagal",
+    "anErrorOccurred": "Terjadi kesalahan"
+  },
+  "loading": {
+    "loading": "Memuat..."
+  },
+  "cookieConsent": {
+    "title": "Persetujuan Cookie",
+    "message": "Kami menggunakan cookie untuk mengingat versi Alkitab yang Anda pilih untuk pengalaman yang lebih baik. Tidak ada informasi pribadi yang dikumpulkan atau dibagikan.",
+    "accept": "Terima",
+    "decline": "Tolak"
+  }
+}

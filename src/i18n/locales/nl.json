@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Bijbelstudie Gereedschap",
+    "footer": {
+      "poweredBy": "Aangedreven door BibleSuperSearch API",
+      "githubRepo": "GitHub Repository"
+    }
+  },
+  "tabs": {
+    "lookup": "Referentie Opzoeken",
+    "search": "Zoeken op Trefwoord",
+    "browse": "Bladeren"
+  },
+  "searchForm": {
+    "bibleReference": "Bijbelreferentie:",
+    "bibleReferencePlaceholder": "bijv. Johannes 3:16, 1 Johannes 1:1-3, Genesis 1:1",
+    "bibleReferenceHint": "Voer een bijbelreferentie in zoals \"Johannes 3:16\" of \"1 Johannes 1:1-3\"",
+    "searchTerms": "Zoektermen:",
+    "searchTermsPlaceholder": "Voer trefwoorden in om te zoeken",
+    "searchTermsHint": "Voer woorden of zinnen in om in de Bijbel te zoeken",
+    "selectBibles": "Selecteer Bijbelversie:",
+    "selectBiblesMultiple": "Selecteer Bijbelversies:",
+    "includeContext": "Inclusief context (omringende verzen)",
+    "contextRange": "Contextbereik:",
+    "verses": "verzen",
+    "lookupPassage": "Passage Opzoeken",
+    "search": "Zoeken",
+    "searching": "Zoeken...",
+    "alertSelectBible": "Selecteer ten minste één bijbelversie",
+    "alertEnterReference": "Voer een bijbelreferentie in",
+    "alertEnterSearch": "Voer zoektermen in"
+  },
+  "bibleSelector": {
+    "loading": "Bijbelversies laden...",
+    "error": "Fout:",
+    "retry": "Opnieuw proberen",
+    "placeholder": "Selecteer bijbelversie",
+    "placeholderMultiple": "Selecteer bijbelversies"
+  },
+  "passageDisplay": {
+    "empty": "Geen passages om weer te geven",
+    "noVerses": "Geen verzen gevonden voor deze bijbelversie"
+  },
+  "searchResults": {
+    "title": "Zoekresultaten",
+    "noResults": "Geen resultaten gevonden. Probeer andere zoektermen.",
+    "found": "Gevonden",
+    "result": "resultaat",
+    "results": "resultaten",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "page": "Pagina",
+    "of": "van"
+  },
+  "browse": {
+    "book": "Boek:",
+    "selectBook": "Selecteer een boek...",
+    "oldTestament": "Oude Testament",
+    "newTestament": "Nieuwe Testament",
+    "chapter": "Hoofdstuk:",
+    "previousBook": "Vorig Boek",
+    "nextBook": "Volgend Boek",
+    "previousChapter": "Vorige Hoofdstuk",
+    "nextChapter": "Volgende Hoofdstuk",
+    "selectBible": "Selecteer ten minste één bijbelversie om het hoofdstuk te bekijken.",
+    "loadingBooks": "Bijbelboeken laden...",
+    "loadingChapter": "Hoofdstuk laden..."
+  },
+  "errors": {
+    "error": "Fout",
+    "loadingFailed": "Laden mislukt",
+    "searchFailed": "Zoeken mislukt",
+    "lookupFailed": "Passage opzoeken mislukt",
+    "anErrorOccurred": "Er is een fout opgetreden"
+  },
+  "loading": {
+    "loading": "Laden..."
+  },
+  "cookieConsent": {
+    "title": "Cookie Toestemming",
+    "message": "We gebruiken cookies om uw geselecteerde bijbelversies te onthouden voor een betere ervaring. Er worden geen persoonlijke gegevens verzameld of gedeeld.",
+    "accept": "Accepteren",
+    "decline": "Weigeren"
+  }
+}

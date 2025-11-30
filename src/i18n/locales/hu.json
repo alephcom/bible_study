@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Biblia Tanulmányozó Eszköz",
+    "footer": {
+      "poweredBy": "BibleSuperSearch API által működtetve",
+      "githubRepo": "GitHub Tároló"
+    }
+  },
+  "tabs": {
+    "lookup": "Hivatkozás Keresése",
+    "search": "Kulcsszó Keresés",
+    "browse": "Böngészés"
+  },
+  "searchForm": {
+    "bibleReference": "Bibliai Hivatkozás:",
+    "bibleReferencePlaceholder": "pl. János 3:16, 1. János 1:1-3, Mózes első könyve 1:1",
+    "bibleReferenceHint": "Adjon meg egy bibliai hivatkozást, például \"János 3:16\" vagy \"1. János 1:1-3\"",
+    "searchTerms": "Keresési Kifejezések:",
+    "searchTermsPlaceholder": "Adja meg a keresendő kulcsszavakat",
+    "searchTermsHint": "Adja meg a Bibliában keresendő szavakat vagy kifejezéseket",
+    "selectBibles": "Válassza ki a Bibliaverziót:",
+    "selectBiblesMultiple": "Válassza ki a Bibliaverziókat:",
+    "includeContext": "Kontextus belefoglalása (környező versek)",
+    "contextRange": "Kontextus tartomány:",
+    "verses": "vers",
+    "lookupPassage": "Szöveg Keresése",
+    "search": "Keresés",
+    "searching": "Keresés...",
+    "alertSelectBible": "Kérjük, válasszon ki legalább egy bibliaverziót",
+    "alertEnterReference": "Kérjük, adjon meg egy bibliai hivatkozást",
+    "alertEnterSearch": "Kérjük, adja meg a keresési kifejezéseket"
+  },
+  "bibleSelector": {
+    "loading": "Bibliaverziók betöltése...",
+    "error": "Hiba:",
+    "retry": "Újrapróbálás",
+    "placeholder": "Válassza ki a bibliaverziót",
+    "placeholderMultiple": "Válassza ki a bibliaverziókat"
+  },
+  "passageDisplay": {
+    "empty": "Nincsenek megjeleníthető szövegrészek",
+    "noVerses": "Nem találhatók versek ehhez a bibliaverzióhoz"
+  },
+  "searchResults": {
+    "title": "Keresési Eredmények",
+    "noResults": "Nem találhatók eredmények. Próbáljon más keresési kifejezéseket.",
+    "found": "Találat",
+    "result": "eredmény",
+    "results": "eredmény",
+    "previous": "Előző",
+    "next": "Következő",
+    "page": "Oldal",
+    "of": "/"
+  },
+  "browse": {
+    "book": "Könyv:",
+    "selectBook": "Válasszon könyvet...",
+    "oldTestament": "Ószövetség",
+    "newTestament": "Újszövetség",
+    "chapter": "Fejezet:",
+    "previousBook": "Előző Könyv",
+    "nextBook": "Következő Könyv",
+    "previousChapter": "Előző Fejezet",
+    "nextChapter": "Következő Fejezet",
+    "selectBible": "Kérjük, válasszon ki legalább egy bibliaverziót a fejezet megtekintéséhez.",
+    "loadingBooks": "Bibliai könyvek betöltése...",
+    "loadingChapter": "Fejezet betöltése..."
+  },
+  "errors": {
+    "error": "Hiba",
+    "loadingFailed": "Betöltés sikertelen",
+    "searchFailed": "Keresés sikertelen",
+    "lookupFailed": "Szöveg keresése sikertelen",
+    "anErrorOccurred": "Hiba történt"
+  },
+  "loading": {
+    "loading": "Betöltés..."
+  },
+  "cookieConsent": {
+    "title": "Sütik Hozzájárulása",
+    "message": "Sütiket használunk a kiválasztott bibliaverziók megjegyzésére a jobb élmény érdekében. Nem gyűjtünk vagy osztunk meg személyes információkat.",
+    "accept": "Elfogad",
+    "decline": "Elutasít"
+  }
+}

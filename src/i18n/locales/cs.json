@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Nástroj pro Studium Bible",
+    "footer": {
+      "poweredBy": "Poháněno BibleSuperSearch API",
+      "githubRepo": "GitHub Repozitář"
+    }
+  },
+  "tabs": {
+    "lookup": "Vyhledat Odkaz",
+    "search": "Vyhledávání podle Klíčového Slova",
+    "browse": "Procházet"
+  },
+  "searchForm": {
+    "bibleReference": "Biblický Odkaz:",
+    "bibleReferencePlaceholder": "např. Jan 3:16, 1. Jan 1:1-3, Genesis 1:1",
+    "bibleReferenceHint": "Zadejte biblický odkaz jako \"Jan 3:16\" nebo \"1. Jan 1:1-3\"",
+    "searchTerms": "Vyhledávací Termíny:",
+    "searchTermsPlaceholder": "Zadejte klíčová slova k vyhledání",
+    "searchTermsHint": "Zadejte slova nebo fráze k vyhledání v Bibli",
+    "selectBibles": "Vyberte Verzi Bible:",
+    "selectBiblesMultiple": "Vyberte Verze Bible:",
+    "includeContext": "Zahrnout kontext (okolní verše)",
+    "contextRange": "Rozsah kontextu:",
+    "verses": "veršů",
+    "lookupPassage": "Vyhledat Pasáž",
+    "search": "Hledat",
+    "searching": "Hledání...",
+    "alertSelectBible": "Prosím vyberte alespoň jednu verzi Bible",
+    "alertEnterReference": "Prosím zadejte biblický odkaz",
+    "alertEnterSearch": "Prosím zadejte vyhledávací termíny"
+  },
+  "bibleSelector": {
+    "loading": "Načítání verzí Bible...",
+    "error": "Chyba:",
+    "retry": "Zkusit znovu",
+    "placeholder": "Vyberte verzi Bible",
+    "placeholderMultiple": "Vyberte verze Bible"
+  },
+  "passageDisplay": {
+    "empty": "Žádné pasáže k zobrazení",
+    "noVerses": "Pro tuto verzi Bible nebyly nalezeny žádné verše"
+  },
+  "searchResults": {
+    "title": "Výsledky Vyhledávání",
+    "noResults": "Nebyly nalezeny žádné výsledky. Zkuste jiné vyhledávací termíny.",
+    "found": "Nalezeno",
+    "result": "výsledek",
+    "results": "výsledků",
+    "previous": "Předchozí",
+    "next": "Další",
+    "page": "Strana",
+    "of": "z"
+  },
+  "browse": {
+    "book": "Kniha:",
+    "selectBook": "Vyberte knihu...",
+    "oldTestament": "Starý Zákon",
+    "newTestament": "Nový Zákon",
+    "chapter": "Kapitola:",
+    "previousBook": "Předchozí Kniha",
+    "nextBook": "Další Kniha",
+    "previousChapter": "Předchozí Kapitola",
+    "nextChapter": "Další Kapitola",
+    "selectBible": "Prosím vyberte alespoň jednu verzi Bible pro zobrazení kapitoly.",
+    "loadingBooks": "Načítání biblických knih...",
+    "loadingChapter": "Načítání kapitoly..."
+  },
+  "errors": {
+    "error": "Chyba",
+    "loadingFailed": "Načtení se nezdařilo",
+    "searchFailed": "Vyhledávání se nezdařilo",
+    "lookupFailed": "Vyhledání pasáže se nezdařilo",
+    "anErrorOccurred": "Došlo k chybě"
+  },
+  "loading": {
+    "loading": "Načítání..."
+  },
+  "cookieConsent": {
+    "title": "Souhlas s Cookies",
+    "message": "Používáme cookies k zapamatování vašich vybraných verzí Bible pro lepší zážitek. Žádné osobní údaje nejsou shromažďovány ani sdíleny.",
+    "accept": "Přijmout",
+    "decline": "Odmítnout"
+  }
+}

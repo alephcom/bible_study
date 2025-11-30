@@ -1,0 +1,38 @@
+{
+  "name": "bible_study",
+  "version": "1.0.0",
+  "description": "Bible study tool to sit in front of BSS API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alephcom/bible_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alephcom/bible_study/issues"
+  },
+  "homepage": "https://github.com/alephcom/bible_study#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "i18next": "^25.6.3",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "js-cookie": "^3.0.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-i18next": "^16.3.5",
+    "react-router-dom": "^7.9.6",
+    "tom-select": "^2.4.3"
+  }
+}

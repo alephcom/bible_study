@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "Bible Study Tool",
+    "footer": {
+      "poweredBy": "Powered by BibleSuperSearch API",
+      "githubRepo": "GitHub Repository"
+    }
+  },
+  "tabs": {
+    "lookup": "Lookup Reference",
+    "search": "Keyword Search",
+    "browse": "Browse"
+  },
+  "searchForm": {
+    "bibleReference": "Bible Reference:",
+    "bibleReferencePlaceholder": "e.g., John 3:16, 1 John 1:1-3, Genesis 1:1",
+    "bibleReferenceHint": "Enter a Bible reference like \"John 3:16\" or \"1 John 1:1-3\"",
+    "searchTerms": "Search Terms:",
+    "searchTermsPlaceholder": "Enter keywords to search",
+    "searchTermsHint": "Enter words or phrases to search for in the Bible",
+    "selectBibles": "Select Bible Version:",
+    "selectBiblesMultiple": "Select Bible Versions:",
+    "includeContext": "Include context (surrounding verses)",
+    "contextRange": "Context range:",
+    "verses": "verses",
+    "lookupPassage": "Lookup Passage",
+    "search": "Search",
+    "searching": "Searching...",
+    "alertSelectBible": "Please select at least one Bible version",
+    "alertEnterReference": "Please enter a Bible reference",
+    "alertEnterSearch": "Please enter search terms"
+  },
+  "bibleSelector": {
+    "loading": "Loading Bible versions...",
+    "error": "Error:",
+    "retry": "Retry",
+    "placeholder": "Select Bible version",
+    "placeholderMultiple": "Select Bible versions"
+  },
+  "passageDisplay": {
+    "empty": "No passages to display",
+    "noVerses": "No verses found for this Bible version"
+  },
+  "searchResults": {
+    "title": "Search Results",
+    "noResults": "No results found. Try different search terms.",
+    "found": "Found",
+    "result": "result",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "browse": {
+    "book": "Book:",
+    "selectBook": "Select a book...",
+    "oldTestament": "Old Testament",
+    "newTestament": "New Testament",
+    "chapter": "Chapter:",
+    "previousBook": "Previous Book",
+    "nextBook": "Next Book",
+    "previousChapter": "Previous Chapter",
+    "nextChapter": "Next Chapter",
+    "selectBible": "Please select at least one Bible version to view the chapter.",
+    "loadingBooks": "Loading Bible books...",
+    "loadingChapter": "Loading chapter..."
+  },
+  "errors": {
+    "error": "Error",
+    "loadingFailed": "Failed to load",
+    "searchFailed": "Search failed",
+    "lookupFailed": "Passage lookup failed",
+    "anErrorOccurred": "An error occurred"
+  },
+  "loading": {
+    "loading": "Loading..."
+  },
+  "cookieConsent": {
+    "title": "Cookie Consent",
+    "message": "We use cookies to remember your selected Bible versions for a better experience. No personal information is collected or shared.",
+    "accept": "Accept",
+    "decline": "Decline"
+  }
+}
+

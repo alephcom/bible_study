@@ -1,0 +1,173 @@
+.bible-selector {
+  margin: 0.5rem 0;
+}
+
+.bible-selector-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.bible-selector-header label {
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+.bible-selector-tom-select {
+  width: 100%;
+}
+
+/* Override tom-select styles to match our theme */
+.ts-wrapper {
+  font-family: inherit;
+}
+
+.ts-control {
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  min-height: 48px;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s;
+}
+
+.ts-control:hover {
+  border-color: var(--primary-light);
+}
+
+.ts-control:focus-within {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.ts-dropdown {
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  background: var(--bg-card);
+  margin-top: 0.5rem;
+  max-height: 400px;
+}
+
+.ts-dropdown [data-selectable] {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  margin: 0.25rem;
+  transition: all 0.2s;
+}
+
+.ts-dropdown [data-selectable]:hover {
+  background: var(--bg-tertiary);
+}
+
+.ts-dropdown [data-selectable].active {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: white;
+}
+
+.ts-dropdown [data-selectable].selected {
+  background: var(--bg-tertiary);
+  font-weight: 500;
+}
+
+.ts-dropdown .optgroup-header {
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--primary);
+  padding: 1rem 1rem 0.5rem;
+  background: var(--bg-secondary);
+  margin: 0.5rem 0;
+  border-bottom: 2px solid var(--border);
+}
+
+.bible-selector.loading,
+.bible-selector.error {
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.loading-spinner-small {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--bg-tertiary);
+  border-top: 3px solid var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.bible-selector.error {
+  color: #ef4444;
+  border-color: #ef4444;
+}
+
+.bible-selector.error button {
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  transition: all 0.2s;
+}
+
+.bible-selector.error button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+@media (prefers-color-scheme: dark) {
+  .ts-control {
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border-color: var(--border);
+  }
+
+  .ts-dropdown {
+    background: var(--bg-card);
+    border-color: var(--border);
+  }
+
+  .ts-dropdown [data-selectable] {
+    color: var(--text-primary);
+  }
+
+  .ts-dropdown [data-selectable].selected {
+    background: var(--bg-tertiary);
+  }
+
+  .ts-dropdown .optgroup-header {
+    background: var(--bg-tertiary);
+    color: var(--primary-light);
+  }
+}
+
+@media (max-width: 768px) {
+  .ts-control {
+    font-size: 0.9rem;
+    min-height: 44px;
+  }
+}

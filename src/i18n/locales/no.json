@@ -1,0 +1,85 @@
+{
+  "app": {
+    "title": "Bibelstudieverktøy",
+    "footer": {
+      "poweredBy": "Drevet av BibleSuperSearch API",
+      "githubRepo": "GitHub Repository"
+    }
+  },
+  "tabs": {
+    "lookup": "Søk Referanse",
+    "search": "Nøkkelordsøk",
+    "browse": "Bla gjennom"
+  },
+  "searchForm": {
+    "bibleReference": "Bibelreferanse:",
+    "bibleReferencePlaceholder": "f.eks. Johannes 3:16, 1. Johannes 1:1-3, 1. Mosebok 1:1",
+    "bibleReferenceHint": "Skriv inn en bibelreferanse som \"Johannes 3:16\" eller \"1. Johannes 1:1-3\"",
+    "searchTerms": "Søkeord:",
+    "searchTermsPlaceholder": "Skriv inn nøkkelord å søke etter",
+    "searchTermsHint": "Skriv inn ord eller setninger å søke etter i Bibelen",
+    "selectBibles": "Velg Bibelversjon:",
+    "selectBiblesMultiple": "Velg Bibelversjoner:",
+    "includeContext": "Inkluder kontekst (omkringliggende vers)",
+    "contextRange": "Kontekstområde:",
+    "verses": "vers",
+    "lookupPassage": "Søk Passasje",
+    "search": "Søk",
+    "searching": "Søker...",
+    "alertSelectBible": "Vennligst velg minst én bibelversjon",
+    "alertEnterReference": "Vennligst skriv inn en bibelreferanse",
+    "alertEnterSearch": "Vennligst skriv inn søkeord"
+  },
+  "bibleSelector": {
+    "loading": "Laster bibelversjoner...",
+    "error": "Feil:",
+    "retry": "Prøv igjen",
+    "placeholder": "Velg bibelversjon",
+    "placeholderMultiple": "Velg bibelversjoner"
+  },
+  "passageDisplay": {
+    "empty": "Ingen passasjer å vise",
+    "noVerses": "Ingen vers funnet for denne bibelversjonen"
+  },
+  "searchResults": {
+    "title": "Søkeresultater",
+    "noResults": "Ingen resultater funnet. Prøv forskjellige søkeord.",
+    "found": "Funnet",
+    "result": "resultat",
+    "results": "resultater",
+    "previous": "Forrige",
+    "next": "Neste",
+    "page": "Side",
+    "of": "av"
+  },
+  "browse": {
+    "book": "Bok:",
+    "selectBook": "Velg en bok...",
+    "oldTestament": "Det Gamle Testamente",
+    "newTestament": "Det Nye Testamente",
+    "chapter": "Kapittel:",
+    "previousBook": "Forrige Bok",
+    "nextBook": "Neste Bok",
+    "previousChapter": "Forrige Kapittel",
+    "nextChapter": "Neste Kapittel",
+    "selectBible": "Vennligst velg minst én bibelversjon for å vise kapittelet.",
+    "loadingBooks": "Laster bibelske bøker...",
+    "loadingChapter": "Laster kapittel..."
+  },
+  "errors": {
+    "error": "Feil",
+    "loadingFailed": "Lasting mislyktes",
+    "searchFailed": "Søk mislyktes",
+    "lookupFailed": "Søk etter passasje mislyktes",
+    "anErrorOccurred": "En feil oppstod"
+  },
+  "loading": {
+    "loading": "Laster..."
+  },
+  "cookieConsent": {
+    "title": "Cookie-samtykke",
+    "message": "Vi bruker informasjonskapsler for å huske dine valgte bibelversjoner for en bedre opplevelse. Ingen personlig informasjon samles inn eller deles.",
+    "accept": "Godta",
+    "decline": "Avslå"
+  }
+}
