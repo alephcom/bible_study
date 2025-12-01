@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added automated screenshot system using Playwright
+- Added 6 documentation screenshots (main interface, lookup, search, parallel view, browse, mobile)
+- Enhanced README with screenshots section
+
 ## [1.0.0] - 2024-12-19
 
 ### Added
