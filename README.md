@@ -23,6 +23,52 @@ If you need support for your BibleSuperSearch API installation, please visit [Bi
 - **Language-based Defaults**: Automatically selects appropriate Bible version based on browser language
 - **Responsive Design**: Works on desktop and mobile devices
 
+## Screenshots
+
+### Main Interface
+![Main Interface](docs/screenshots/main-interface.png)
+*The main interface showing all three tabs: Lookup Reference, Keyword Search, and Browse*
+
+### Lookup Reference
+![Lookup Reference](docs/screenshots/lookup-reference.png)
+*Looking up a Bible passage by reference (e.g., "John 3:16")*
+
+### Search Results
+![Search Results](docs/screenshots/search-results.png)
+*Keyword search results with highlighted search terms*
+
+### Parallel Bible View
+![Parallel View](docs/screenshots/parallel-view.png)
+*Comparing multiple Bible translations side-by-side*
+
+### Browse Tab
+![Browse Tab](docs/screenshots/browse-tab.png)
+*Browsing through books and chapters with navigation controls*
+
+### Mobile View
+![Mobile View](docs/screenshots/mobile-view.png)
+*Responsive design optimized for mobile devices*
+
+> **📸 Taking Screenshots** 
+> 
+> We've included an automated screenshot tool! To generate screenshots:
+> 
+> 1. **Start the development server:**
+>    ```bash
+>    npm run dev
+>    ```
+> 
+> 2. **In another terminal, run the automated script:**
+>    ```bash
+>    npm run screenshots
+>    ```
+> 
+> This will automatically capture all screenshots and save them to `docs/screenshots/`.
+> 
+> For manual screenshots or more details, see:
+> - [scripts/README.md](scripts/README.md) - Automated screenshot script documentation
+> - [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md) - Manual screenshot guidelines
+
 ## Prerequisites
 
 - Node.js (v16 or higher)
