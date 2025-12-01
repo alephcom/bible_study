@@ -34,8 +34,8 @@
     "loading": "Loading Bible versions...",
     "error": "Error:",
     "retry": "Retry",
-    "placeholder": "Select Bible version",
-    "placeholderMultiple": "Select Bible versions"
+    "placeholder": "Type to search Bible version...",
+    "placeholderMultiple": "Type to search Bible versions..."
   },
   "passageDisplay": {
     "empty": "No passages to display",

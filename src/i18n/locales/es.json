@@ -34,8 +34,8 @@
     "loading": "Cargando versiones de la Biblia...",
     "error": "Error:",
     "retry": "Reintentar",
-    "placeholder": "Seleccionar versión de la Biblia",
-    "placeholderMultiple": "Seleccionar versiones de la Biblia"
+    "placeholder": "Escriba para buscar versión de la Biblia...",
+    "placeholderMultiple": "Escriba para buscar versiones de la Biblia..."
   },
   "passageDisplay": {
     "empty": "No hay pasajes para mostrar",

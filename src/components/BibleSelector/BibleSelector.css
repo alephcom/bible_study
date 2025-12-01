@@ -37,6 +37,46 @@
   transition: all 0.2s;
 }
 
+/* Ensure input text is visible */
+.ts-control input,
+.ts-control .ts-input,
+.ts-control input[type="text"],
+.ts-control input[type="search"] {
+  color: var(--text-primary) !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 1rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: 100px;
+  width: auto !important;
+  box-shadow: none !important;
+}
+
+.ts-control input::placeholder,
+.ts-control .ts-input::placeholder {
+  color: var(--text-tertiary) !important;
+  opacity: 1;
+}
+
+.ts-control input:focus,
+.ts-control .ts-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Ensure the control input wrapper doesn't hide text */
+.ts-control .input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.ts-control .input-wrap input {
+  flex: 1;
+}
+
 .ts-control:hover {
   border-color: var(--primary-light);
 }
@@ -144,6 +184,14 @@
     background: var(--bg-card);
     color: var(--text-primary);
     border-color: var(--border);
+  }
+
+  .ts-control input {
+    color: var(--text-primary) !important;
+  }
+
+  .ts-control input::placeholder {
+    color: var(--text-tertiary) !important;
   }
 
   .ts-dropdown {

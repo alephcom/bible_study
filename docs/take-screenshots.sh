@@ -1,0 +1,70 @@
+#!/bin/bash
+# Helper script to take screenshots of the Bible Study Tool
+# This script starts the dev server and provides instructions for taking screenshots
+
+echo "=========================================="
+echo "Bible Study Tool - Screenshot Helper"
+echo "=========================================="
+echo ""
+echo "This script will help you take screenshots of the application."
+echo ""
+echo "Prerequisites:"
+echo "  - The app should be running (npm run dev)"
+echo "  - A screenshot tool installed (e.g., Screenshot on macOS, or browser extension)"
+echo ""
+
+# Check if dev server is running
+if ! curl -s http://localhost:3000 > /dev/null 2>&1; then
+    echo "⚠️  Dev server doesn't appear to be running on port 3000"
+    echo "   Please run 'npm run dev' in another terminal first"
+    echo ""
+    read -p "Press Enter when the server is running, or Ctrl+C to exit..."
+fi
+
+SCREENSHOT_DIR="docs/screenshots"
+
+# Create screenshots directory if it doesn't exist
+mkdir -p "$SCREENSHOT_DIR"
+
+echo "📸 Ready to take screenshots!"
+echo ""
+echo "Screenshots to capture:"
+echo ""
+echo "1. Main Interface"
+echo "   URL: http://localhost:3000"
+echo "   File: $SCREENSHOT_DIR/main-interface.png"
+echo "   Description: Show all three tabs visible"
+echo ""
+echo "2. Lookup Reference"
+echo "   URL: http://localhost:3000/?tab=lookup&ref=John%203:16"
+echo "   File: $SCREENSHOT_DIR/lookup-reference.png"
+echo "   Description: Lookup tab with a reference entered"
+echo ""
+echo "3. Search Results"
+echo "   URL: http://localhost:3000/?tab=search&q=love"
+echo "   File: $SCREENSHOT_DIR/search-results.png"
+echo "   Description: Search tab with results showing"
+echo ""
+echo "4. Parallel Bible View"
+echo "   URL: http://localhost:3000/?tab=lookup&ref=John%203:16&bibles=kjv,niv"
+echo "   File: $SCREENSHOT_DIR/parallel-view.png"
+echo "   Description: Multiple Bible versions side-by-side"
+echo ""
+echo "5. Browse Tab"
+echo "   URL: http://localhost:3000/?tab=browse&book=John&chapter=1"
+echo "   File: $SCREENSHOT_DIR/browse-tab.png"
+echo "   Description: Browse tab with book/chapter selectors"
+echo ""
+echo "=========================================="
+echo ""
+echo "Open each URL above in your browser and take a screenshot."
+echo "Save each screenshot to the corresponding file in $SCREENSHOT_DIR/"
+echo ""
+echo "For macOS:"
+echo "  Cmd+Shift+4 to select area, then save to $SCREENSHOT_DIR/"
+echo ""
+echo "For browser extensions:"
+echo "  Use Awesome Screenshot, Nimbus, or similar"
+echo ""
+echo "When finished, screenshots will automatically appear in the README!"
+

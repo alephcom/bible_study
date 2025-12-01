@@ -7,9 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- Added automated screenshot system using Playwright
-- Added 6 documentation screenshots (main interface, lookup, search, parallel view, browse, mobile)
-- Enhanced README with screenshots section
+## [1.0.1] - 2024-12-20
+
+### Added
+- **Language-based Bible Selector Prioritization**: Bible selector now prioritizes user's browser language when displaying options
+  - User's language optgroup appears first in the dropdown
+  - Enhanced language matching with support for language codes and names
+  - Improved sorting algorithm to ensure user's language is always at the top
+
+### Fixed
+- **Bible Selector Search Input Visibility**: Fixed issue where typed text was not visible in the search input field
+  - Added explicit CSS rules to ensure input text is always visible
+  - Improved styling for placeholder text
+  - Added dark mode support for input visibility
+- **Bible Selector Typing Support**: Enhanced search functionality in Bible selector
+  - Improved placeholder text to indicate typing is supported
+  - Better input field styling and visibility
+
+### Changed
+- Enhanced Bible selector with better language matching logic
+- Improved optgroup sorting to respect user's browser language preference
 
 ## [1.0.0] - 2024-12-19
 
